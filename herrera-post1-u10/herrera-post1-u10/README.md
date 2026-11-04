@@ -1,6 +1,4 @@
-# Envios Service — Análisis de Métricas de Calidad
 
-> PLANTILLA: reemplaza cada `[[...]]` y cada `X` con los datos reales de TU análisis.
 
 ## Entorno de análisis
 [[Docker local o SonarCloud]]. Decisión de diseño 1: [[justifica con al menos dos criterios de la tabla:
@@ -20,9 +18,7 @@ necesidad de acceder desde otro equipo]].
 INTERNACIONAL, tramos de peso, recargos por distancia, fragilidad, CORPORATIVO, método no soportado);
 por qué coinciden complejidad y cobertura baja en el mismo método.]]
 
-## Capturas del análisis inicial
-![Dashboard SonarQube](docs/sonar-dashboard-inicial.png)
-![Reporte JaCoCo](docs/jacoco-inicial.png)
+
 
 ---
 # Diagnóstico y Mejora Guiada por Métricas
@@ -75,11 +71,7 @@ por qué coinciden complejidad y cobertura baja en el mismo método.]]
 | Code Smells | X | X |
 | Quality Gate | — | Passed / Failed |
 
-## Capturas
-![Dashboard inicial](docs/sonar-dashboard-inicial.png)
-![JaCoCo inicial](docs/jacoco-inicial.png)
-![Dashboard final](docs/sonar-dashboard-final.png)
-![JaCoCo final](docs/jacoco-final.png)
+
 
 ## Cómo reproducir
 ```bash
@@ -93,6 +85,4 @@ mvn clean verify sonar:sonar -Dsonar.token=TU_TOKEN
 - SonarQube Community / SonarCloud, JaCoCo, Docker
 - Git, GitHub
 
-## Conclusiones
-[[3-5 oraciones con tus aprendizajes: la cobertura sube más rápido que la calidad; la CC indica cuántas pruebas
-hacen falta; Strategy aísla fórmulas pero no elimina reglas transversales; los umbrales deben ser realistas.]]
+
