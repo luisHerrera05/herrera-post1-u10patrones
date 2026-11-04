@@ -1,0 +1,5 @@
+Copia esto SOLO después de terminar la Parte 1 (analisis inicial hecho, capturas y valores guardados):
+  main/estrategia/*  -> src/main/java/com/universidad/enviosservice/estrategia/
+  main/service/ServicioCalculoEnvio.java -> reemplaza el de src/main/java/.../service/
+  test/estrategia/*  -> src/test/java/com/universidad/enviosservice/estrategia/
+  test/service/ServicioCalculoEnvioTest.java -> reemplaza el de src/test/java/.../service/
